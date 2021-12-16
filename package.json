@@ -1,0 +1,26 @@
+{
+  "name": "be-shortenurl",
+  "version": "1.0.0",
+  "description": "Backend service for URL Shortening Service",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "backend",
+    "API"
+  ],
+  "author": "Bryton Hong",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2",
+    "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15"
+  }
+}
