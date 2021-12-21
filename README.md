@@ -2,6 +2,7 @@ Description: URL Shortening Service
 
 Criterias to run: 
 1. npm install
+2. npm run devStart
 
 Frontend Codes: FE-ShortenURL
 
