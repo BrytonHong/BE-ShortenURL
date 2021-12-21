@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
+const dotenv = require("dotenv");
+dotenv.config();
 
-let uri = 'mongodb+srv://URL_Shortener:Malaysia2021@cluster0.9d5y0.mongodb.net/USS_Database?retryWrites=true&w=majority'
-
-mongoose.connect(uri,{
+mongoose.connect(process.env.MONGO_DB_URL,{
     useNewUrlParser: true, 
     useUnifiedTopology: true
 })
